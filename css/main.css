@@ -7,12 +7,16 @@ body {
 }
 
 
-#about, #work, #contact {
+#work, #contact {
 	height: 600px;
 
 
 }
 
+#about {
+	height: 400px;
+
+} 
 
 /*****GRID*****/
 
@@ -42,9 +46,10 @@ body {
 /*****HEADER*****/
 
 header {
-	height: 800px;
+	height: 900px;
 	background: url("../img/hero.png");
-	background-position: center center;
+	background-position: cover;
+
 
 
 }
@@ -119,6 +124,7 @@ header h2 span {
 	font-family: 'Lora', serif;
 	font-style: bold;
 	font-size: 36px;
+	padding: 20px 0;
 
 	
 }
