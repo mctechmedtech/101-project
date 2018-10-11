@@ -48,7 +48,8 @@ body {
 header {
 	height: 900px;
 	background: url("../img/hero.png");
-	background-position: cover;
+	background-size: cover;
+	background-position: center;
 
 
 
